@@ -1,7 +1,31 @@
+package Lab02;
+
 import java.util.ArrayList;
+
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
+
+
+
+class Animal{
+	String name;
+	int numLegs;
+	
+	public int getLegs() {
+		return this.numLegs;
+	}
+	
+}
+
+class Dog extends Animal{
+	public Dog(String s, int n) {
+		this.name=s;
+		this.numLegs=n;
+	}
+}
+
 
 public class MyCompare3 {
 	
